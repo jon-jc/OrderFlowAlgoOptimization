@@ -53,27 +53,3 @@ The .scid files contain Level 1 data (OHLCV), and .depth files contain Level 2 d
 For large datasets, you may need to implement chunk processing to avoid memory issues.
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-
-yaml
-Copy code
-
----
-
-### How to Push This to GitHub:
-1. **Create the Repository on GitHub**:
-   - Go to [GitHub](https://github.com) and create a new repository (e.g., `order-flow-trading-strategy`).
-   - Add a `.gitignore` for Python (optional) and a license if desired.
-
-2. **Push the Project**:
-   In your terminal, run the following commands to push your project:
-
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit - Order Flow Trading Strategy"
-   git branch -M main
-   git remote add origin https://github.com/your-username/order-flow-trading-strategy.git
-   git push -u origin main
-Verify the Repository:
-Once pushed, your repository will be available on GitHub, and you can navigate to it to verify the files are uploaded.
-Let me know if you need further assistance!
